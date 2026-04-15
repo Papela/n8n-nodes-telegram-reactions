@@ -1,0 +1,59 @@
+{
+  "name": "n8n-nodes-telegram-reactions",
+  "version": "0.1.0",
+  "description": "n8n community node to send reactions to Telegram messages",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "n8n-node",
+    "telegram",
+    "telegram-bot",
+    "bot",
+    "reactions",
+    "emoji",
+    "automation",
+    "setMessageReaction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papela/n8n-nodes-telegram-reactions.git"
+  },
+  "homepage": "https://github.com/Papela/n8n-nodes-telegram-reactions#readme",
+  "bugs": {
+    "url": "https://github.com/Papela/n8n-nodes-telegram-reactions/issues"
+  },
+  "license": "MIT",
+  "homepage": "",
+  "author": "Papela",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lintfix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/TelegramReactionApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/TelegramReaction/TelegramReaction.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.16",
+    "gulp": "^4.0.2",
+    "n8n-workflow": "*",
+    "prettier": "^3.0.0",
+    "typescript": "~5.2.0"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}
