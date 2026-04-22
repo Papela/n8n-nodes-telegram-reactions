@@ -20,7 +20,7 @@ Community node para [n8n](https://n8n.io) que añade el método `setMessageReact
 
 ## Instalación
 
-### Opción A — Desde la UI de n8n (recomendada cuando lo publiques en npm)
+### Opción A — Desde la UI de n8n
 
 1. En n8n: **Settings → Community Nodes → Install**.
 2. Escribe el nombre del paquete: `n8n-nodes-telegram-reactions`.

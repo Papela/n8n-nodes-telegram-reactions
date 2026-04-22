@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-telegram-reactions",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "n8n community node to send reactions to Telegram messages",
   "keywords": [
     "n8n-community-node-package",
@@ -47,11 +47,11 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "^18.16.16",
-    "gulp": "^4.0.2",
+    "@types/node": "^22.0.0",
+    "gulp": "^5.0.1",
     "n8n-workflow": "*",
     "prettier": "^3.0.0",
-    "typescript": "~5.2.0"
+    "typescript": "^6.0.3"
   },
   "peerDependencies": {
     "n8n-workflow": "*"

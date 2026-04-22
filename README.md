@@ -17,7 +17,7 @@ Community node for [n8n](https://n8n.io) that adds the `setMessageReaction` meth
 
 ## Installation
 
-### Option A — From n8n UI (recommended once published to npm)
+### Option A — From n8n UI
 1. In n8n: **Settings → Community Nodes → Install**.
 2. Enter the package name: `n8n-nodes-telegram-reactions`.
 3. Accept the warning and restart if prompted.

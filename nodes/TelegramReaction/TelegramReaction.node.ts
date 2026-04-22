@@ -181,6 +181,11 @@ export class TelegramReaction implements INodeType {
 				name: 'isBig',
 				type: 'boolean',
 				default: false,
+				displayOptions: {
+					show: {
+						reactionType: ['emoji', 'custom_emoji'],
+					},
+				},
 				description: 'Whether to set the reaction with a big animation',
 			},
 		],
